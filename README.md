@@ -1,2 +1,7 @@
-#MERN - GraphQL Api - React Front
-#here is my GraphQl API feel free to use
+# MERN - GraphQL Api 
+
+- Mongo DB
+- Node / express-graphql
+- GraphQl server
+- GraphQl client
+- React on the fron
