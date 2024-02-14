@@ -1,9 +1,6 @@
 const mongoose = require("mongoose");
 
 const ProjectSchema = new mongoose.Schema({
-  id: {
-    type: String,
-  },
   name: {
     type: String,
   },
@@ -12,7 +9,7 @@ const ProjectSchema = new mongoose.Schema({
   },
   status: {
     type: String,
-    enum: ["Not Stated", "In Progress", "Complete"],
+    enum: ["Not Started", "In Progress", "Completed"],
   },
   clientId: {
     type: mongoose.Schema.Types.ObjectId,
